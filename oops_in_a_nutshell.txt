@@ -1,0 +1,17 @@
+declare classes for specific class of items. 
+put properties of a class in private and functions of a class in public. 
+use constructors for accessing private data. 
+structs in c++ are basically public classes. 
+//templates 
+excellently explained in usaco guide
+template<class T>
+struct Point3D {
+    T x, y, z;
+};
+ 
+Point3D<int> p1{1, 2, 3}; 
+Point3D<double> p1{1.1, 2.2, 3.3}; 
+using lambda expressions
+small functions!!
+auto lambda = [](auto){ do something}; 
+auto a = lambda(b); 
