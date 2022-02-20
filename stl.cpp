@@ -1,6 +1,7 @@
 //vector - dynamic size array
 vector<int> v(10);     //10 elements all 0
 vector<char> v(10, 'h');    //10 elements all h 
+//can erase elements from end of the structure
 v.clear(); //clears all elements
 for (auto i = v.begin(); i != v.end(); i++){
     cout << *i << "\n"; 
@@ -9,6 +10,9 @@ for (auto i : v){
     cout << i << endl; 
 }
 
+//deque can be pushed and popped from both sides
+//stack is essentially just vector without insert and erase funtions
+//queue -- pushed from the back, popped from the front
 
 sort();   //function
 // mixture of 3 algorithms - O(nlogn) 
