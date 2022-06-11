@@ -1,2 +1,3 @@
 rectangle geometry
 use while(k--) while looping through k times
+can use "and" and "or" instead of && and ||
